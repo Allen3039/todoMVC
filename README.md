@@ -49,7 +49,7 @@ cd server
 ```
 node server.js
 ```
-打开浏览器输入http://localhost:8081/index
+打开浏览器输入http://localhost:8081/index.html
 ###### dev模式(需要分别运行服务器端 和 客户端)
 进入server目录
 ```
