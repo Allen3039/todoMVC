@@ -1,27 +1,65 @@
-# todo
+# todoMVC 0.0.1
 
-> todo app 
+> todo app
 
-## Build Setup
+> 前端基于Vue.js 后端基于Node.js 的todo应用
 
+## Features
+
+###### 前端
+* Vue.js 1.x
+* Vue-resource
+
+###### 后端
+* Node.js
+* mongoDB (mongoose)
+* Express
+
+###### 工具
+* Webpack
+* ES6
+* stylus
+
+## Setup
+###### 环境
+* Node.js **v6**
+* mongoDB [Download](https://www.mongodb.com/download-center?jmp=nav#community)
+[安装方法](https://docs.mongodb.com/manual/installation/)
+
+安装完成并建立数据库文件夹后，进入mongodb根目录，启动mongdb
 ``` bash
-# install dependencies
+mongod
+```
+进入项目目录
+```
+cd todoMVC
+```
+安装依赖
+```
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+##运行
+###### build模式
+进入server目录
+```
+cd server
+```
+运行服务器文件server.js
+```
+node server.js
+```
+打开浏览器输入http://localhost:8081/index
+###### dev模式(需要分别运行服务器端 和 客户端)
+进入server目录
+```
+cd server
+```
+运行服务器文件server.js
+```
+node server.js
+```
+项目根目录下
+```
+npm run build
+```
