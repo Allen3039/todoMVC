@@ -39,7 +39,7 @@ cd todoMVC
 npm install
 ```
 
-##运行
+## 运行
 ###### build模式
 进入server目录
 ```
