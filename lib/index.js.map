@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["a","b"],"mappings":";;;;;;;;AAAA,IAAIA,IAAI,CAAR;AACA,IAAIC,IAAI,mBAAR","file":"index.js","sourcesContent":["let a = 1;\r\nvar b = new Set();"]}
